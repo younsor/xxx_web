@@ -1,0 +1,20 @@
+{
+    "apps": [
+        {
+            "name": "xxx_webfront",
+            "script": "server.js",
+            "watch": "./server/",
+            "ignore_watch": [
+                "server/storage"
+            ],
+            "log_date_format": "YYYY-MM-DD HH:mm:s:SSS",
+            "error_file": "logs/xxx-error.log",
+            "out_file": "logs/xxx-out.log",
+            "suffix": "sss",
+            "merge_logs": false,
+            "env": {
+                "NODE_ENV": "development"
+            }
+        }
+    ]
+}
